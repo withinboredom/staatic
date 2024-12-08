@@ -11,7 +11,7 @@ use Staatic\Framework\Result;
 final class StaaticTransformer implements TransformerInterface, LoggerAwareInterface
 {
     use LoggerAwareTrait;
-    private const GENERATOR_STRING = "<!-- Powered by Staatic (https://staatic.com/) -->";
+    private const GENERATOR_STRING = "<!-- <3 -->";
     public function __construct()
     {
         $this->logger = new NullLogger();
